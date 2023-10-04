@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  width: 100%;
+  height: 75px;
+  background-color: #111121;
+  padding: 0 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo img {
+  width: 157px;
+  height: 34px;
+}
+.header nav ul {
+  display: flex;
+}
+.header nav ul li {
+  color: white;
+  margin-left: 20px;
+  list-style: none;
+  font-size: 20px;
+}
+.hero {
+  width: 100%;
+  height: 80vh;
+  background-color: #111121;
+  color: white;
+  padding: 0 8%;
+  display: flex;
+}
+.hero .text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.hero .text h1 {
+  font-size: 65px;
+  font-weight: 500;
+}
+.hero .text h1 span {
+  color: #eab308;
+}
+.hero .text p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.hero .text .btn {
+  padding-top: 5px;
+}
+.hero .text .btn button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.hero .text .btn .protfolio {
+  border: none;
+  background-color: #1d4ed8;
+  color: #fff;
+  margin-right: 7px;
+}
+.hero .text .btn .content {
+  border: 1px solid #fff;
+  background: none;
+  color: #fff;
+}
+.hero .img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about {
+  width: 100%;
+  background-color: #1a1a3c;
+  padding: 3% 8%;
+  display: flex;
+}
+.about .left {
+  width: 50%;
+}
+.about .left h1 {
+  color: #fff;
+  font-size: 36px;
+  font-size: 500;
+}
+.about .left p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 25px;
+}
+.about .img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+.Services {
+  width: 100%;
+  padding: 3% 8%;
+  background-color: #111121;
+}
+.Services h1 {
+  color: #fff;
+  font-size: 36px;
+  font-size: 500;
+}
+.Services .row {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 8px;
+}
+.Services .row .box {
+  background-color: #fff;
+  padding: 28px 20px;
+  width: 100%;
+}
+.Services .row .box img {
+  width: 34px;
+  height: 34px;
+}
+.Services .row .box h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #000;
+}
+.Services .row .box p {
+  font-size: 17px;
+  font-weight: 300;
+  color: #000;
+}
+.portfolio {
+  width: 100%;
+  padding: 3% 8%;
+  background-color: #1a1a3c;
+}
+.portfolio h1 {
+  color: #fff;
+  font-size: 36px;
+  font-size: 500;
+}
+.portfolio .row {
+  width: 100%;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 6px;
+  grid-row-gap: 12px;
+}
+.footer {
+  width: 100%;
+  background-color: #1d4ed8;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer p {
+  width: 653px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10px;
+  color: #fff;
+}
+.footer .so {
+  margin-top: 13px;
+  display: flex;
+}
+.footer .so i {
+  color: #fff;
+  margin-left: 12px;
+  font-size: 24px;
+  cursor: pointer;
+}
